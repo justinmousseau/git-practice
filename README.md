@@ -1,4 +1,4 @@
-# hello-world
+# hello_world
 
 So glad to see you made it!
 
