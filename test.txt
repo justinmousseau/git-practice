@@ -1,0 +1,14 @@
+My goal is to save this file to my local repository, create a new branch, add changes to the staging area of the newly created branch, commit the changes, and push those changes to the newly created branch on GitHub. Then I will switch locally to my master branch, pull changes from GitHub in case someone has made adjusments, locally merge the newly created branch to the master branch, and push the changes to the master branch to GitHub.
+
+1.	git branch <branch name>
+2.	git checkout <branch name>
+3.	Make changes to code in local repository and save
+4.	git status   // to confirm cahnges
+5.	git add -A   // adds changes to staging area of the locally stored newly created branch
+6.	git commit -m "<message>"
+7.	git push -u origin <branch name>   // push changes to remotely stored newly created branch
+
+8.	git branch master
+9.	git pull origin master   // get changes from remote repo
+10. git merge <branch name>   // merges newly created branch to master locally
+11.	git push origin master   // pushes changes to remote master
