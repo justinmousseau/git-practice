@@ -3,7 +3,7 @@ Our goal is to save this file to my local repository, create a new branch, add c
 1.   git branch <branch name>
 2.   git checkout <branch name>
 3.   Make changes to code in local repository and save
-4.   git status   // to confirm cahnges
+4.   git status   // to confirm changes
 5.   git add -A   // adds changes to staging area of the locally stored newly created branch
 6.   git commit -m "<message>"
 7.   git push -u origin <branch name>   // push changes to remotely stored newly created branch
